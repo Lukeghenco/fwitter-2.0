@@ -19,4 +19,30 @@ A tweet has content
 
 
 
+    [
+        {
+            content: 'My First tweet',
+            user: {
+                username: 'lukeghenco',
+                email: 'luke@flatironschool.com',
+                user_id: '1'
+            },
+            re_tweets: [
+                {
+                    id: 1,
+                    user_id: 1,
+                    tweet_id: 1
+                },
+            ],
+            love_tweets: [
+                {
+                    id: 1,
+                    user_id: 1,
+                    tweet_id: 1
+                },
+            ]
+        }
+    ]
+
+
 <!-- ADMINS? -->
