@@ -45,4 +45,16 @@ A tweet has content
     ]
 
 
-<!-- ADMINS? -->
+<!-- JAVASCRIPT -->
+
+Use a packaging service to handle front end assets
+    - bower ( bower-rails )
+    - Angular Templates ( angular-rails-templates )
+
+Use Angular
+    - Angular JS ( ng-directives, controller, services, factories and components)
+    - Angular UI Router ( routing URL )
+    - Angular Devise ( Front End Authentication )
+
+Use Moment.js
+Use Bootstrap

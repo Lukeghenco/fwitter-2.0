@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'bower-rails'
+
+gem 'angular-rails-templates'
+
 gem 'responders'
 
 gem 'active_model_serializers'
@@ -27,6 +31,7 @@ gem 'jbuilder', '~> 2.5'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'pry'
   gem 'byebug', platform: :mri
 end
 
