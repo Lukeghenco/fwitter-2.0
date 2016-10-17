@@ -1,5 +1,6 @@
+require 'pry'
 class TweetsController < ApplicationController
-    before_action :authenticate_user!, only: [:create, :update, :destroy]
+    # before_action :authenticate_user!, only: [:create, :update, :destroy]
 
     def index
         tweets = Tweet.all
@@ -12,6 +13,7 @@ class TweetsController < ApplicationController
     end
 
     def create
+        binding.pry
         tweet = current_user.tweets.build(tweet_params)
         if tweet.save
             render json: { status: 'ok' }

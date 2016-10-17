@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'bower-rails'
 
+gem 'bootstrap-sass', '~> 3.3.6'
+
+
 gem 'angular-rails-templates'
 
 gem 'responders'

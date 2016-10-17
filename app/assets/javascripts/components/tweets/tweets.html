@@ -1,0 +1,9 @@
+<div>
+    <ul>
+        <li ng-repeat="tweet in $ctrl.tweets">
+            <p>
+                {{ tweet.content }} - <span class="small-text" ng-bind="tweet.user.username"></span>
+            </p>
+        </li>
+    </ul>
+</div>
