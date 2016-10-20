@@ -4,4 +4,5 @@ class TweetSerializer < ActiveModel::Serializer
     has_one :user
     has_many :re_tweets
     has_many :love_tweets
+    has_many :comments
 end
